@@ -1,0 +1,22 @@
+.main {
+  display: block;
+  color: transparent;
+  padding: 30px;
+  transform: translateX(30px);
+  text-align: start;
+  transition: all 3s ease-in-out;
+  overflow-x: hidden;
+}
+
+.fade-in-right {
+  color: black;
+  transform: initial;
+}
+
+[data-delay="300ms"] {
+  transition-delay: 300ms;
+}
+
+[data-delay="600ms"] {
+  transition-delay: 600ms;
+}

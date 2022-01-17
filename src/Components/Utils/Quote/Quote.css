@@ -1,0 +1,18 @@
+.quote {
+  overflow-x: hidden;
+  font-size: 0.95em;
+  font-weight: lighter;
+  padding: 15px;
+  margin: 5px 10px;
+  color: transparent;
+  background-color: transparent;
+  border-radius: 3px;
+  transform: translateX(15px);
+  transition: all 3s ease-in-out;
+}
+
+.quote.fade-in-right {
+  color: rgb(131, 131, 131);
+  background-color: rgba(82, 90, 182, 0.1);
+  transform: initial;
+}

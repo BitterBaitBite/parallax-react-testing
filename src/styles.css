@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  margin: 1px;
+  width: 12px;
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fff0; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(180, 177, 207); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid white; /* creates padding around scroll thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(141, 137, 172); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid white; /* creates padding around scroll thumb */
+}
+
+.App {
+  width: 100%;
+  font-family: sans-serif;
+}
+
+header {
+  padding-top: 15vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: top no-repeat
+    url("https://i1.wp.com/handluggageonly.co.uk/wp-content/uploads/2017/12/Hand-Luggage-Only-18-5.jpg?resize=1024%2C822&ssl=1");
+}
+
+h1,
+h2 {
+  /* color: white; */
+}
+
+h1 {
+  font-size: 4em;
+  animation: fadeInTitle ease-in-out;
+  animation-duration: 1s;
+}
+
+h2 {
+  font-size: 2em;
+  animation: fadeInSubtitle ease-in-out;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInTitle {
+  0% {
+    color: transparent;
+    transform: scale(0.9);
+  }
+
+  100% {
+    color: black;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInSubtitle {
+  0% {
+    color: transparent;
+    transform: scale(0.9);
+  }
+
+  50% {
+    color: transparent;
+    transform: scale(0.9);
+  }
+
+  100% {
+    color: black;
+    transform: scale(1);
+  }
+}
